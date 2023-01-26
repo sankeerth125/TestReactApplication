@@ -63,7 +63,6 @@ function GridPage() {
  }, []);
 
  const print = (rowData) => {
-  console.log(rowData);
   setRowData(rowData.filter((data) => data.make === filter));
  }
 
